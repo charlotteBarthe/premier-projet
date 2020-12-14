@@ -1,0 +1,68 @@
+html{ 
+
+margin: 0;
+padding: 0;
+ }
+
+body{
+
+}
+ 
+
+.nav.navbar-nav.navbar-right{ 
+    color: #722626; 
+}
+
+
+.div vert-center{ 
+position: absolute !important;
+top: 0;
+botoom: 0;
+right: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+
+.vert-center p {
+font-size: 24px;
+color: #722626;
+text-align: center;
+padding-left: 30 px;
+padding-right: 30 px;
+
+}
+
+
+/*for width smaller than 400px:*/
+
+body{  
+
+
+	background-image: ('photos1paysage.jpg');
+
+	  }
+
+	  /* for width 400 px and larger:*/
+
+	  @media only screen and (min-width: 400px){ 
+
+	   body{ 
+
+	   	background-image: ('photos2paysage.jpg');
+	   	  }
+	   	    }
+
+	   	    #menu{ 
+
+background-color: #722626;
+	   	     }
+
+	   	    
+	   	      .exemple{ 
+
+	   	      	text-align: right;
+	   	      	border: solid;
+	   	      	
+	   	       }
